@@ -1,0 +1,4 @@
+new-twitch-user
+1yPVlLdAmDeVrLaf
+
+mongodb+srv://<username>:<password>@cluster0.o7tzt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

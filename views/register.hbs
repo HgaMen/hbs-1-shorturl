@@ -1,0 +1,38 @@
+<h1 class='text-center my-5'>Registro de usuarios nuevos</h1>
+
+<div class='row justify-content-center'>
+  <div class='col-md-6'>
+    <form action='/auth/register' method='post'>
+      <input type='hidden' name='_csrf' value='{{csrfToken}}' />
+      <input
+        type='text'
+        name='userName'
+        class='form-control mb-2'
+        placeholder='ingrese nombre'
+        value='Heg@'
+      />
+      <input
+        type='text'
+        name='email'
+        class='form-control mb-2'
+        placeholder='ingrese email'
+        value='hga.int2021@gmail.com'
+      />
+      <input
+        type='password'
+        name='password'
+        class='form-control mb-2'
+        placeholder='ingrese password'
+        value='123123'
+      />
+      <input
+        type='password'
+        name='repassword'
+        class='form-control mb-2'
+        placeholder='repita password'
+        value='123123'
+      />
+      <button class='btn btn-primary' type='submit'>Registrar usuario</button>
+    </form>
+  </div>
+</div>
